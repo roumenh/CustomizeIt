@@ -29,5 +29,8 @@ interface DemoApiService {
     @GET("customizeit/")
     suspend fun getTestData() : TestDto
 
+    @GET("customizeit/")
+    suspend fun getTestData() : TestDto
+
 }
 
